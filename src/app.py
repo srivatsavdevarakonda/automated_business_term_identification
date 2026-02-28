@@ -58,7 +58,7 @@ with col2:
 # --- LLM Suggested Term Card ---
 st.markdown("""
 <div style="background-color:#1f2937; padding:20px; border-radius:10px; margin-top:20px;">
-    <h3 style="color:#fbbf24;">🤖 LLM Suggested Term</h3>
+    <h3 style="color:#fbbf24;">🤖 LLM Suggested Terms are seen below!!!</h3>
 </div>
 """, unsafe_allow_html=True)
 
