@@ -942,7 +942,7 @@
   },
   {
     "table": "lazada-products",
-    "column": "title",
+    "column": "heading",
     "dtype": "object",
     "row_count": 1000,
     "null_pct": 0.0,
@@ -955,7 +955,7 @@
       "RODA KOPER, RODA PENGGANTI, RODA DOUBLE WHEEL, RODA PUTAR 360"
     ],
     "hints": [],
-    "card_text": "[Table] lazada-products\n[Column] title (object)\n[Stats] rows=1000, null_pct=0.0, distinct=402\n[Samples] DIODA DAMPER DMV 1500 TV POLYTRON NEW ORIGINAL SUPER, Victus Laptop Gaming HP AMD Ryzen 5 NVIDIA GeForce 8GB / 16GB RAM 512GB SSD Silver / Blue Windows 11 Home 15.6 Inch Garansi 2 Tahun Official, Laptop HP 15s-fq5148TU Core i3 UHD 4GB & 8GB RAM 512GB SSD W11 15.6 Inch Intel Garansi 2 Tahun / 14s-dq5115TU / Official, Printer HP DeskJet 2336 All in One ( Print Scan Copy ) USB / 2377 / 2335 / 1216 / Garansi 1 Tahun Fotocopy Kertas A4 F4 Cetak Murah Color Colour Warna Official, RODA KOPER, RODA PENGGANTI, RODA DOUBLE WHEEL, RODA PUTAR 360\n[Hints] none"
+    "card_text": "[Table] lazada-products\n[Column] heading (object)\n[Stats] rows=1000, null_pct=0.0, distinct=402\n[Samples] DIODA DAMPER DMV 1500 TV POLYTRON NEW ORIGINAL SUPER, Victus Laptop Gaming HP AMD Ryzen 5 NVIDIA GeForce 8GB / 16GB RAM 512GB SSD Silver / Blue Windows 11 Home 15.6 Inch Garansi 2 Tahun Official, Laptop HP 15s-fq5148TU Core i3 UHD 4GB & 8GB RAM 512GB SSD W11 15.6 Inch Intel Garansi 2 Tahun / 14s-dq5115TU / Official, Printer HP DeskJet 2336 All in One ( Print Scan Copy ) USB / 2377 / 2335 / 1216 / Garansi 1 Tahun Fotocopy Kertas A4 F4 Cetak Murah Color Colour Warna Official, RODA KOPER, RODA PENGGANTI, RODA DOUBLE WHEEL, RODA PUTAR 360\n[Hints] none"
   },
   {
     "table": "lazada-products",
@@ -1002,7 +1002,7 @@
     "dtype": "float64",
     "row_count": 1000,
     "null_pct": 0.0,
-    "distinct": 291,
+    "distinct": 276,
     "samples": [
       "0.0",
       "17555000.0",
@@ -1013,7 +1013,7 @@
     "hints": [
       "numeric_dtype"
     ],
-    "card_text": "[Table] lazada-products\n[Column] initial_price (float64)\n[Stats] rows=1000, null_pct=0.0, distinct=291\n[Samples] 0.0, 17555000.0, 6499000.0, 990000.0, 150000.0\n[Hints] numeric_dtype"
+    "card_text": "[Table] lazada-products\n[Column] initial_price (float64)\n[Stats] rows=1000, null_pct=0.0, distinct=276\n[Samples] 0.0, 17555000.0, 6499000.0, 990000.0, 150000.0\n[Hints] numeric_dtype"
   },
   {
     "table": "lazada-products",
@@ -1021,7 +1021,7 @@
     "dtype": "float64",
     "row_count": 1000,
     "null_pct": 0.0,
-    "distinct": 516,
+    "distinct": 488,
     "samples": [
       "10000.0",
       "16499000.0",
@@ -1032,11 +1032,11 @@
     "hints": [
       "numeric_dtype"
     ],
-    "card_text": "[Table] lazada-products\n[Column] final_price (float64)\n[Stats] rows=1000, null_pct=0.0, distinct=516\n[Samples] 10000.0, 16499000.0, 6099000.0, 880000.0, 65000.0\n[Hints] numeric_dtype"
+    "card_text": "[Table] lazada-products\n[Column] final_price (float64)\n[Stats] rows=1000, null_pct=0.0, distinct=488\n[Samples] 10000.0, 16499000.0, 6099000.0, 880000.0, 65000.0\n[Hints] numeric_dtype"
   },
   {
     "table": "lazada-products",
-    "column": "currency",
+    "column": "curr",
     "dtype": "object",
     "row_count": 1000,
     "null_pct": 0.0,
@@ -1049,11 +1049,11 @@
       "MYR"
     ],
     "hints": [],
-    "card_text": "[Table] lazada-products\n[Column] currency (object)\n[Stats] rows=1000, null_pct=0.0, distinct=5\n[Samples] IDR, THB, PHP, SGD, MYR\n[Hints] none"
+    "card_text": "[Table] lazada-products\n[Column] curr (object)\n[Stats] rows=1000, null_pct=0.0, distinct=5\n[Samples] IDR, THB, PHP, SGD, MYR\n[Hints] none"
   },
   {
     "table": "lazada-products",
-    "column": "image",
+    "column": "img",
     "dtype": "object",
     "row_count": 1000,
     "null_pct": 0.0,
@@ -1066,7 +1066,7 @@
       "[\"https://img.lazcdn.com/g/p/abc4f89073ba5380c9cb7e648002e32f.jpg_720x720q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/abc4f89073ba5380c9cb7e648002e32f.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/f3384852543734988859c293ebbfce8f.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/f45a707b1dd7e3898f34320acbd8d277.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/925c863f08b7a68165ee916f7148640d.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/8f73389288712f0a881cbc0ec53cc4e1.jpg_80x80q80.jpg_.webp\"]"
     ],
     "hints": [],
-    "card_text": "[Table] lazada-products\n[Column] image (object)\n[Stats] rows=1000, null_pct=0.0, distinct=404\n[Samples] [\"https://img.lazcdn.com/g/ff/kf/Sc92f4b3c99c0454fb5154a4c17216ce2z.jpg_720x720q80.jpg_.webp\",\"https://img.lazcdn.com/g/ff/kf/Sc92f4b3c99c0454fb5154a4c17216ce2z.jpg_120x120q80.jpg_.webp\",\"https://img.lazcdn.com/g/ff/kf/Sbe605ee6711744598f6a3b63e78f8884m.jpg_120x120q80.jpg_.webp\",\"https://img.lazcdn.com/g/ff/kf/S1c305188f1864c939b5b520a4fe394468.jpg_120x120q80.jpg_.webp\"], [\"https://img.lazcdn.com/g/p/3440632c069eddd825c561221deb3d6c.png_720x720q80.png_.webp\",\"https://img.lazcdn.com/g/p/3440632c069eddd825c561221deb3d6c.png_80x80q80.png_.webp\",\"https://img.lazcdn.com/g/p/57e4d43a95f62a1e67a7da6614a91130.png_80x80q80.png_.webp\",\"https://img.lazcdn.com/g/p/347b1be35156b27994be2d39ab9ac9af.png_80x80q80.png_.webp\",\"https://img.lazcdn.com/g/p/3f36263e805c786ca7c1daa4efa730cd.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/8765a8835fd60ddf56d254fead4ac45a.png_80x80q80.png_.webp\"], [\"https://img.lazcdn.com/g/p/23782d5f1bd37a89cc88a6cc1d200daa.png_720x720q80.png_.webp\",\"https://img.lazcdn.com/g/p/23782d5f1bd37a89cc88a6cc1d200daa.png_120x120q80.png_.webp\",\"https://img.lazcdn.com/g/p/abf190deeebe7ded32ce2a5f3a127c31.png_120x120q80.png_.webp\",\"https://img.lazcdn.com/g/p/4643df2c889a053e8d1ab546ab7973db.png_120x120q80.png_.webp\",\"https://img.lazcdn.com/g/p/59baa5214453afb2d3b65ff3146b1db0.jpg_120x120q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/d14081b924431293bcbfd62bf82a65b5.jpg_120x120q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/2aa4680c168ddb7c0ef34c3b518d4659.png_120x120q80.png_.webp\",\"https://img.lazcdn.com/g/p/a32810251310cc23c4d27e6424bc2189.png_120x120q80.png_.webp\",\"https://img.lazcdn.com/g/p/6cb63d52926cad0cf5af38789493f7eb.jpg_120x120q80.jpg_.webp\"], [\"https://img.lazcdn.com/g/p/bf68d11f46c85761ada6c68141708638.jpg_720x720q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/bf68d11f46c85761ada6c68141708638.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/d22faa5f42ca40ae01f935c54137d644.png_80x80q80.png_.webp\",\"https://img.lazcdn.com/g/p/820b01d78884a5f9420c990a3b73fee2.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/0ff3fff07c0f73120478fd0acbdaac45.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/0bd10d0c78451377b05bc56513cff2c8.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/e5d95fea984ece1aa18fa6701057ec71.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/efb538f28faf1cd5d1fef3711909a77a.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/dd4afde754fd51ca0522629f35eaf1b2.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/6f8a25f44874c114596f8d14da0b7a9f.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/7561b78ede76521489b0526d99ecfa4b.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/8ccfc231702d20abadd1981118311b00.jpg_80x80q80.jpg_.webp\"], [\"https://img.lazcdn.com/g/p/abc4f89073ba5380c9cb7e648002e32f.jpg_720x720q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/abc4f89073ba5380c9cb7e648002e32f.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/f3384852543734988859c293ebbfce8f.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/f45a707b1dd7e3898f34320acbd8d277.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/925c863f08b7a68165ee916f7148640d.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/8f73389288712f0a881cbc0ec53cc4e1.jpg_80x80q80.jpg_.webp\"]\n[Hints] none"
+    "card_text": "[Table] lazada-products\n[Column] img (object)\n[Stats] rows=1000, null_pct=0.0, distinct=404\n[Samples] [\"https://img.lazcdn.com/g/ff/kf/Sc92f4b3c99c0454fb5154a4c17216ce2z.jpg_720x720q80.jpg_.webp\",\"https://img.lazcdn.com/g/ff/kf/Sc92f4b3c99c0454fb5154a4c17216ce2z.jpg_120x120q80.jpg_.webp\",\"https://img.lazcdn.com/g/ff/kf/Sbe605ee6711744598f6a3b63e78f8884m.jpg_120x120q80.jpg_.webp\",\"https://img.lazcdn.com/g/ff/kf/S1c305188f1864c939b5b520a4fe394468.jpg_120x120q80.jpg_.webp\"], [\"https://img.lazcdn.com/g/p/3440632c069eddd825c561221deb3d6c.png_720x720q80.png_.webp\",\"https://img.lazcdn.com/g/p/3440632c069eddd825c561221deb3d6c.png_80x80q80.png_.webp\",\"https://img.lazcdn.com/g/p/57e4d43a95f62a1e67a7da6614a91130.png_80x80q80.png_.webp\",\"https://img.lazcdn.com/g/p/347b1be35156b27994be2d39ab9ac9af.png_80x80q80.png_.webp\",\"https://img.lazcdn.com/g/p/3f36263e805c786ca7c1daa4efa730cd.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/8765a8835fd60ddf56d254fead4ac45a.png_80x80q80.png_.webp\"], [\"https://img.lazcdn.com/g/p/23782d5f1bd37a89cc88a6cc1d200daa.png_720x720q80.png_.webp\",\"https://img.lazcdn.com/g/p/23782d5f1bd37a89cc88a6cc1d200daa.png_120x120q80.png_.webp\",\"https://img.lazcdn.com/g/p/abf190deeebe7ded32ce2a5f3a127c31.png_120x120q80.png_.webp\",\"https://img.lazcdn.com/g/p/4643df2c889a053e8d1ab546ab7973db.png_120x120q80.png_.webp\",\"https://img.lazcdn.com/g/p/59baa5214453afb2d3b65ff3146b1db0.jpg_120x120q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/d14081b924431293bcbfd62bf82a65b5.jpg_120x120q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/2aa4680c168ddb7c0ef34c3b518d4659.png_120x120q80.png_.webp\",\"https://img.lazcdn.com/g/p/a32810251310cc23c4d27e6424bc2189.png_120x120q80.png_.webp\",\"https://img.lazcdn.com/g/p/6cb63d52926cad0cf5af38789493f7eb.jpg_120x120q80.jpg_.webp\"], [\"https://img.lazcdn.com/g/p/bf68d11f46c85761ada6c68141708638.jpg_720x720q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/bf68d11f46c85761ada6c68141708638.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/d22faa5f42ca40ae01f935c54137d644.png_80x80q80.png_.webp\",\"https://img.lazcdn.com/g/p/820b01d78884a5f9420c990a3b73fee2.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/0ff3fff07c0f73120478fd0acbdaac45.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/0bd10d0c78451377b05bc56513cff2c8.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/e5d95fea984ece1aa18fa6701057ec71.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/efb538f28faf1cd5d1fef3711909a77a.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/dd4afde754fd51ca0522629f35eaf1b2.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/6f8a25f44874c114596f8d14da0b7a9f.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/7561b78ede76521489b0526d99ecfa4b.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/8ccfc231702d20abadd1981118311b00.jpg_80x80q80.jpg_.webp\"], [\"https://img.lazcdn.com/g/p/abc4f89073ba5380c9cb7e648002e32f.jpg_720x720q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/abc4f89073ba5380c9cb7e648002e32f.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/f3384852543734988859c293ebbfce8f.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/f45a707b1dd7e3898f34320acbd8d277.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/925c863f08b7a68165ee916f7148640d.jpg_80x80q80.jpg_.webp\",\"https://img.lazcdn.com/g/p/8f73389288712f0a881cbc0ec53cc4e1.jpg_80x80q80.jpg_.webp\"]\n[Hints] none"
   },
   {
     "table": "lazada-products",
@@ -1227,7 +1227,7 @@
   },
   {
     "table": "lazada-products",
-    "column": "colors",
+    "column": "color",
     "dtype": "object",
     "row_count": 1000,
     "null_pct": 0.5,
@@ -1240,7 +1240,7 @@
       "[\"Oranye\",\"Hijau\",\"Biru\"]"
     ],
     "hints": [],
-    "card_text": "[Table] lazada-products\n[Column] colors (object)\n[Stats] rows=1000, null_pct=0.5, distinct=153\n[Samples] [\"14s-dq5115TU\"], [\"2336 Putih\"], [\"Merah Jambu\",\"GWI 5912\",\"GWI 6528\",\"GWI 5874\",\"KKM 6530\",\"GWI 6529\",\"Kuda Pony\",\"Jagoan\"], [\"Set 2pcs\",\"Set 4pcs\"], [\"Oranye\",\"Hijau\",\"Biru\"]\n[Hints] none"
+    "card_text": "[Table] lazada-products\n[Column] color (object)\n[Stats] rows=1000, null_pct=0.5, distinct=153\n[Samples] [\"14s-dq5115TU\"], [\"2336 Putih\"], [\"Merah Jambu\",\"GWI 5912\",\"GWI 6528\",\"GWI 5874\",\"KKM 6530\",\"GWI 6529\",\"Kuda Pony\",\"Jagoan\"], [\"Set 2pcs\",\"Set 4pcs\"], [\"Oranye\",\"Hijau\",\"Biru\"]\n[Hints] none"
   },
   {
     "table": "lazada-products",
@@ -1261,7 +1261,7 @@
   },
   {
     "table": "lazada-products",
-    "column": "color",
+    "column": "color.1",
     "dtype": "object",
     "row_count": 1000,
     "null_pct": 0.5,
@@ -1274,7 +1274,7 @@
       "Hijau"
     ],
     "hints": [],
-    "card_text": "[Table] lazada-products\n[Column] color (object)\n[Stats] rows=1000, null_pct=0.5, distinct=229\n[Samples] 14s-dq5115TU, 2336 Putih, GWI 6529, Set 2pcs, Hijau\n[Hints] none"
+    "card_text": "[Table] lazada-products\n[Column] color.1 (object)\n[Stats] rows=1000, null_pct=0.5, distinct=229\n[Samples] 14s-dq5115TU, 2336 Putih, GWI 6529, Set 2pcs, Hijau\n[Hints] none"
   },
   {
     "table": "lazada-products",
@@ -1309,7 +1309,7 @@
   },
   {
     "table": "lazada-products",
-    "column": "promotions",
+    "column": "promo",
     "dtype": "object",
     "row_count": 1000,
     "null_pct": 0.0,
@@ -1322,7 +1322,7 @@
       "[\"Belanja Rp20.000\"]"
     ],
     "hints": [],
-    "card_text": "[Table] lazada-products\n[Column] promotions (object)\n[Stats] rows=1000, null_pct=0.0, distinct=74\n[Samples] [], [\"Belanja Rp50.000\"], [\"Belanja Rp100.000\"], [\"Belanja Rp30.000\"], [\"Belanja Rp20.000\"]\n[Hints] none"
+    "card_text": "[Table] lazada-products\n[Column] promo (object)\n[Stats] rows=1000, null_pct=0.0, distinct=74\n[Samples] [], [\"Belanja Rp50.000\"], [\"Belanja Rp100.000\"], [\"Belanja Rp30.000\"], [\"Belanja Rp20.000\"]\n[Hints] none"
   },
   {
     "table": "lazada-products",
@@ -1343,7 +1343,7 @@
   },
   {
     "table": "lazada-products",
-    "column": "product_variation",
+    "column": "pv",
     "dtype": "object",
     "row_count": 1000,
     "null_pct": 0.0,
@@ -1356,7 +1356,7 @@
       "[{\"name\":\"RODA\",\"value\":\"AUDI\"}]"
     ],
     "hints": [],
-    "card_text": "[Table] lazada-products\n[Column] product_variation (object)\n[Stats] rows=1000, null_pct=0.0, distinct=836\n[Samples] [], [{\"name\":\"Varian\",\"value\":\"15-fb2666AX\"}], [{\"name\":\"Warna\",\"value\":\"14s-dq5115TU\"}], [{\"name\":\"Warna\",\"value\":\"2336 Putih\"}], [{\"name\":\"RODA\",\"value\":\"AUDI\"}]\n[Hints] none"
+    "card_text": "[Table] lazada-products\n[Column] pv (object)\n[Stats] rows=1000, null_pct=0.0, distinct=836\n[Samples] [], [{\"name\":\"Varian\",\"value\":\"15-fb2666AX\"}], [{\"name\":\"Warna\",\"value\":\"14s-dq5115TU\"}], [{\"name\":\"Warna\",\"value\":\"2336 Putih\"}], [{\"name\":\"RODA\",\"value\":\"AUDI\"}]\n[Hints] none"
   },
   {
     "table": "lazada-products",
