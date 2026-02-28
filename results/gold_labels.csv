@@ -1,0 +1,12 @@
+table,column,correct_term
+customers,CUSTOMER_ID,Customer ID
+customers,CUSTOMER_NAME,
+customers,EMAIL,Email
+customers,PHONE,
+customers,COUNTRY,
+orders,ORDER_ID,
+orders,CUSTOMER_ID,Customer ID
+orders,ORDER_DATE,Order Date
+orders,ORDER_AMOUNT,Order Amount
+orders,CURRENCY,
+orders,STATUS,
