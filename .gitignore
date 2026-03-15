@@ -6,11 +6,7 @@
 __pycache__/
 *.py[cod]
 *.egg-info/
-.env
 
-# Data & results (too large for repo — user uploads at runtime)
-data/
-results/
 
 # OS
 .DS_Store
