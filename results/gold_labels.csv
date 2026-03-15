@@ -1,0 +1,36 @@
+table,column,correct_term
+amazon-products,title,Product Name
+amazon-products,brand,Brand
+amazon-products,rating,Rating
+amazon-products,currency,Currency
+amazon-products,url,URL
+
+walmart-products,product_id,Product ID
+walmart-products,final_price,Final Price
+walmart-products,discount,Discount
+walmart-products,brand,Brand
+walmart-products,rating,Rating
+walmart-products,reviews_count,Reviews Count
+walmart-products,currency,Currency
+walmart-products,url,URL
+
+shopee-products,title,Product Name
+shopee-products,final_price,Final Price
+shopee-products,rating,Rating
+shopee-products,brand,Brand
+shopee-products,currency,Currency
+shopee-products,url,URL
+
+lazada-products,heading,Product Name
+lazada-products,init_price,Final Price
+lazada-products,rating,Rating
+lazada-products,brand,Brand
+lazada-products,currency,Currency
+lazada-products,url,URL
+
+shein-products,product_name,Product Name
+shein-products,final_price,Final Price
+shein-products,rating,Rating
+shein-products,brand,Brand
+shein-products,currency,Currency
+shein-products,url,URL

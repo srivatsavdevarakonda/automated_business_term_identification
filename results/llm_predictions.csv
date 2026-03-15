@@ -1,0 +1,29 @@
+table,column,llm_term,llm_confidence,llm_reason
+amazon-products,brand,Brand,0.99,Rule based mapping
+amazon-products,currency,Currency,0.99,Rule based mapping
+amazon-products,rating,Rating,0.99,Rule based mapping
+amazon-products,title,Product Name,0.99,Rule based mapping
+amazon-products,url,URL,0.99,Rule based mapping
+lazada-products,brand,Brand,0.99,Rule based mapping
+lazada-products,currency,Currency,0.99,Rule based mapping
+lazada-products,rating,Rating,0.99,Rule based mapping
+lazada-products,url,URL,0.99,Rule based mapping
+shein-products,brand,Brand,0.99,Rule based mapping
+shein-products,currency,Currency,0.99,Rule based mapping
+shein-products,final_price,Final Price,0.99,Rule based mapping
+shein-products,product_name,Product Name,0.99,Rule based mapping
+shein-products,rating,Rating,0.99,Rule based mapping
+shein-products,url,URL,0.99,Rule based mapping
+shopee-products,brand,Brand,0.99,Rule based mapping
+shopee-products,currency,Currency,0.99,Rule based mapping
+shopee-products,final_price,Final Price,0.99,Rule based mapping
+shopee-products,rating,Rating,0.99,Rule based mapping
+shopee-products,title,Product Name,0.99,Rule based mapping
+shopee-products,url,URL,0.99,Rule based mapping
+walmart-products,brand,Brand,0.99,Rule based mapping
+walmart-products,currency,Currency,0.99,Rule based mapping
+walmart-products,discount,Discount,0.9,"Column 'discount' is of object datatype and contains price values, indicating a discount."
+walmart-products,final_price,Final Price,0.99,Rule based mapping
+walmart-products,product_id,,0.0,rate_limit
+walmart-products,rating,Rating,0.99,Rule based mapping
+walmart-products,url,URL,0.99,Rule based mapping
